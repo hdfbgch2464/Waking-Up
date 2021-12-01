@@ -37,6 +37,9 @@
 - 第三次握手：客户端检查acknowledge number是否为序列号+1，ACK是否为1，检查正确之后将自己的ACK置为1，产生一个acknowledge number=服务器发的序列号+1，发送给服务器；进入ESTABLISHED状态；服务器检查ACK为1和acknowledge number为序列号+1之后，也进入ESTABLISHED状态；完成三次握手，连接建立。
 
 ##### TCP建立连接可以两次握手吗？为什么?
+
+11
+
 <details>
 <summary>展开</summary>
 
